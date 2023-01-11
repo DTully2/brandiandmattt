@@ -1,0 +1,27 @@
+.accommodationsContainer {
+    padding-bottom: 1rem;
+    background: linear-gradient(108deg, rgba(207, 3, 252, 1) 0%, rgba(210, 230, 250) 100%);
+}
+
+.accommodationsHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 1.5rem;
+    margin-bottom: 2rem;;
+}
+
+.accommodationsTitle {
+    font-weight: 700;
+}
+
+.accommodationsCardContainer {
+    margin: 1.5rem;
+}
+
+.accommodationsIcon {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}

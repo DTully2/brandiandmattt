@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.accommodationsTag {
+    text-decoration: none;
+color: black;
+}
+
+.accommodationsTag:hover {
+
+    color: rgb(207, 3, 252);
+}
+
+.rsvpModal {
+    margin: auto;
+    padding: 1rem;
+}
+
+.modalHeader {
+    background-color: rgb(3, 165, 252);
+}
+
+.modalBody {
+    background-color: rgb(207, 3, 252);
+}
+
+.modalFooter {
+    background-color: rgb(3, 165, 252);
+}
+
+.invalid {
+    border: 2px solid yellow !important;
+}
+
+.valid {
+    border: 3px solid rgb(13, 145, 25) !important;
+}
+
+input.input-error,
+select.input-error {
+    border: 2px solid red;
+}
+input.input-success,
+select.input-success {
+    border: 2px solid green;
+}
+
+
